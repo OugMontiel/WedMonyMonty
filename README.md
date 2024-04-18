@@ -1,8 +1,8 @@
-# Primer Contato 
+# Mony Monty
 
-Este paguina sera usada para captar y recopilar informacion de interesados en el proyecto en forma de usuarios.
+Esta página será utilizada para captar y recopilar información de interesados en el proyecto, registrándolos como usuarios.
 
-Si desea mas Informacion al respecto al proyecto visite mis redes:
+Para obtener más información sobre el proyecto, visita mis redes sociales:
 
 <p align="left"> 
     <a href="https://discord.com/users/Oug#6073" target="_blank" rel="noreferrer">
@@ -18,6 +18,7 @@ Si desea mas Informacion al respecto al proyecto visite mis redes:
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
     </a>
 </p>
+Si ya eres parte del proyecto, solicita acceso al repositorio principal. Allí encontrarás más información sobre la página.
 
-Si ya es parte del proyecto, Solicite acceso al repocitorio principal, alli encontrara mas informacion de la paguina. 
- 
+[MonteFlor](https://github.com/OugMontiel/MonteFlor)
+
