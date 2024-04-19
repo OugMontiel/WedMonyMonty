@@ -20,5 +20,4 @@ Para obtener más información sobre el proyecto, visita mis redes sociales:
 </p>
 Si ya eres parte del proyecto, solicita acceso al repositorio principal. Allí encontrarás más información sobre la página.
 
-[MonteFlor](https://github.com/OugMontiel/MonteFlor)
 
