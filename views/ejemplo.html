@@ -1,0 +1,25 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Países</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <label for="country-select">Seleccione un país:</label>
+    <select name="country-select" id="country-select"></select>
+
+    <!-- Vincular el archivo JavaScript -->
+    <script src="../js/main.js"></script>
+    <script>
+        // Llamar a la función para cargar los nombres de países al cargar la página
+        document.addEventListener("DOMContentLoaded", function() {
+            // Llamar a la función desde el archivo JavaScript para cargar el select
+            loadCountryNames();
+        });
+    </script>
+</body>
+</html>
