@@ -1,3 +1,10 @@
 :root{
-    --color-minegro:#000000;
+    --color-negro:#000000;
+    --color-logoFondo: #262632;
+    --color-logoContraste: #12111F;
+    --color-logoInterior:#2DD5C4;
+    --color-blanco:#ffffff;
+    
+    --color-header-fooder:#333;
+
 }
