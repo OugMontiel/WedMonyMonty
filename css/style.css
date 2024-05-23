@@ -5,6 +5,23 @@
     border: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*
+header{
+    height: 3em;
+    background-color: var(--color-header-fooder);
+    color:var(--color-blanco);
+    padding: 40px;
+
+    display: block;
+    justify-content: space-between;    
+}
+
 img{
     width: 100%;
     padding: 10px;
@@ -14,57 +31,58 @@ img{
     border-radius: 3px;
     cursor: pointer;
 }
-
-.benefits {
-    padding: 20px;
-    text-align: center;
-}
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-body{
-    font-family: arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header{
-    height: 3em;
+*/
+.menu-nav{
     background-color: var(--color-header-fooder);
-    color:var(--color-blanco);
-    padding: 1em;
-
+    align-content: center;
     display: flex;
-    justify-content: space-between;    
 }
-header img{
-    overflow: hidden;
+.navbar-logo{
+    width: 70px;
+    padding: 8px;
 }
 
-/* .logo img {
-    max-height: 40px;
-} */
+.navbar-logo img{
+    width: 100%;
+    height: auto;
+}
 
-.hero {
-background-color: #f2f2f2;
-padding: 20px;
-text-align: center;
+.principal-box {
+    background-color: var(--color-Interior);
+    padding: 100px;
+}
+
+.principal-box > h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace ;
+}
+
+.frasesInicioPagina{
+    padding: 10px;
+    display: flex;
+    font-family: var(--letra-header);
+}
+
+.articleParaFasesMotivadoras{
+    padding: 20px 20px;
+}
+
+.form {
+    padding: 50px;
 }
 
 .form-container {
-background-color: #fff;
-padding: 20px;
-max-width: 500px;
-margin: 0 auto;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-blanco);
+    padding: 60px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-group {
-margin-bottom: 15px;
+.form-group {   
+    margin-bottom: 15px;
 }
 
 input[type="text"],
@@ -73,35 +91,42 @@ input[type="tel"],
 select {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-Contraste);
     border-radius: 3px;
+}
+.country-code{
+    width: 50%;
 }
 
 .btn {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
+    background-color: var(--color-Contraste);
+    color: var(--color-blanco);
+    border: 1px solid var(--color-Interior);
+    border-radius: 8px;
     cursor: pointer;
 }
 
-.benefits {
-    padding: 20px;
-    text-align: center;
+.fooderlos3Servicios{
+    background-color: var(--color-Interior);
+    padding: 100px;
+}
+.los3Servicios{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.servicioss{
+    padding: 10px;
 }
 
-.benefits ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
-}
 
-.benefits li {
-    margin-bottom: 10px;
-}
+
+
+
+
 
 footer {
     background-color: var(--color-header-fooder);
