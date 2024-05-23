@@ -1,13 +1,192 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonyMonty</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" type="module" defer></script>
+    <link rel="icon" href="logitoAzulSinFondo.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav class="menu-nav">
+            <div class="menu-nav"> </div>
+            <div class="menu-nav"> </div>
+            <div class="menu-nav"> </div>
+            <a class="navbar-logo" href="#">
+                <img src="storeg/img/logoSinFondo.png">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <!-- seccion principal-->
+        <section class="principal-box">
+            <h1> Money Monty</h1>
+            <article class="articleParaFasesMotivadoras">
+                <div class="frasesInicioPagina">
+                    "Descubre la verdadera libertad financiera: riqueza en tiempo y educación financiera a través de una
+                    planificación estratégica." - ChatGpt
+                </div>
+                <div class="frasesInicioPagina">
+                    "Realice un seguimiento de sus gastos e ingresos de forma rápida y clara, cuando y donde quiera." -
+                    Anonima
+                </div>
+                <div class="frasesInicioPagina">
+                    "La riqueza consiste mucho más en disfrutar que en poseer." - Aristóteles
+                </div>
+            </article>
+        </section>
+
+        <!-- Seccion Formulario -->
+        <section class="form">
+            <div class="form-container">
+                <h2 class="titulo-registrarse">Registrate gratis</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="txt-nombre">Nombre*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="txt-email">Tu mejor email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group country-telefono">
+                        <label for="txt-telefono">Numero de telefono</label>
+                        <br>
+                        <select name="country-code" id="country-code" class="country-code">
+                            <option value="+57">Colombia</option>
+                            <option value="+56">Chile</option>
+                            <option value="+53">Cuba</option>
+                        </select>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">¿Aceptas nuestras <a href="views/terms_and_conditions.html">politicas de
+                                tratamiento de informacion</a>, autorizacion de tratamiento de datos?</label>
+                    </div>
+                    <button type="submit" class="btn">Quiero registrarme</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- segunda seccion Servicios -->
+        <article class="articleAspectoGeneraales">
+            <div class="fooderlos3Servicios">
+                <h1>Nuestros Servicios </h1>
+                <div class="los3Servicios">
+                    <div class="servicio_educacion servicioss">
+                        <h2>Educacion</h2>
+                        <p>Educacion Educacion Educacion Educacion</p> 
+                    </div>
+                    <div class="servicio_control servicioss">
+                        <h2>Control y seguimientos</h2>
+                        <p>Control y seguimientos Control y seguimientos Control y seguimientos</p>
+                    </div>
+                    <div class="servicio_gestion servicioss">
+                        <h2>Gestion con expertos</h2>
+                        <p>Gestion con expertos Gestion con expertos Gestion con expertos</p>
+                    </div>
+                </div>
+            </div>
+            <article class="articleOfertaDeLaApp">
+                Con nuestra aplicación podrás hacer un seguimiento detallado de todos tus movimientos, gestionar
+                múltiples
+                cuentas, obtener un resumen de ingresos, gastos y el balance mes a mes además contamos con informes que
+                generan potentes gráficos que te ayudarán a entender a dónde va tu dinero, también podrás guardar y
+                personalizar categorías de ingresos y gastos a tu antojo y disfrutar de todas estas herramientas con una
+                hermosa interfaz de usuario
+
+            <p> Con nuestra app lograrás:</p>
+                <div>
+                    👉 Aprender sobre finanzas, presupuesto, ahorro e inversiones
+                </div>
+                <div>
+                    👉 Registrar tus ingresos, gastos y ahorros con categorías personalizadas para que veas con claridad
+                    a dónde destinás tu dinero.
+                </div>
+                <div>
+                    👉 Filtrar la información y separar tus finanzas personales, familiares y las de tu negocio.
+                </div>
+                <div>
+                    👉 Descargar reportes mensuales y recibir recomendaciones para ordenar tus finanzas y aumentar tus ahorros.
+                </div>
+                <div>
+                    👉 Descubrir las últimas noticias financieras para tomar las mejores decisiones con tu dinero.
+                </div>
+            </article>
+
+            <article class="articleOfertaEducativaDeLaApp">
+                Ofrecemos recursos y orientación sobre educación financiera, que te ayudarán a alcanzar la libertad
+                financiera. Proporcionamos consejos prácticos para administrar mejor el dinero, educación sobre finanzas
+                personales, planificación para el futuro, establecimiento de fondos de emergencia y un plan simple para
+                avanzar hacia tus metas económicas. Te brindamos todo lo necesario para encaminarte hacia la
+                independencia
+                financiera y lograr tus sueños.
+            </article>
+
+            <!-- oferta de la conexion con tutores  -->
+            <article class="articleOfertaGestionDeLaApp">
+                
+               <p> Además, podrás suscribirte a MonyMonty y acceder a:</p>
+
+                <p>🔥 Nuestra Academia con más de x contenidos: Cursos, tutoriales, planillas y notas para aprender a ahorrar, invertir ¡y mucho más!</p>
+                <p>🔥 Asistente virtual para despejar dudas 24/7</p>
+                <p>🔥 Masterclass & Eventos en vivo con expertos</p>
+                <p>🔥 Charlas en vivo sobre las últimas noticias financieras</p>
+                <p> 🔥 Comunidad privada donde podrás compartir experiencias y consejos</p>
+            </article>
+        </article>
+        
+    </main>
+    <footer>
+        <section class="footeer">
+            <div class="FooderConInfomacionDeLaEmpresa">
+                <h1>Information</h1>
+                <p>About Us </p>
+                <p>Privacy Policy </p>
+                <p>
+                    <a href="views/terms_and_conditions.html">Terms & condicions</a>
+                </p>
+            </div>
+            <div class="fooderCreadoresDeLaPaguina">
+                <h1>Creadores</h1>
+                ### Socials
+                <a href="https://discord.com/users/Oug#6073" target="_blank" rel="noreferrer">
+                    <box-icon name='discord' type='logo' color='#ffffff'></box-icon>
+                </a>
+                <a href="https://www.github.com/OugMontiel" target="_blank" rel="noreferrer">
+                    <box-icon name='github' type='logo' color='#ffffff'></box-icon>
+                </a>
+                <a href="http://www.instagram.com/oug_montiel/" target="_blank" rel="noreferrer">
+                    <box-icon name='instagram' type='logo' color='#ffffff'></box-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/diego-alejandro-montiel-florez-data-science/" target="_blank"
+                    rel="noreferrer">
+                    <box-icon name='linkedin-square' type='logo' color='#ffffff'></box-icon>
+                </a>
+
+                <a href="https://discord.com/users/Oug#6073" target="_blank" rel="noreferrer">
+                    <box-icon name='discord' type='logo' color='#ffffff'></box-icon>
+                </a>
+                <a href="https://www.github.com/OugMontiel" target="_blank" rel="noreferrer">
+                    <box-icon name='github' type='logo' color='#ffffff'></box-icon>
+                </a>
+                <a href="http://www.instagram.com/oug_montiel/" target="_blank" rel="noreferrer">
+                    <box-icon name='instagram' type='logo' color='#ffffff'></box-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/diego-alejandro-montiel-florez-data-science/" target="_blank"
+                    rel="noreferrer">
+                    <box-icon name='linkedin-square' type='logo' color='#ffffff'></box-icon>
+                </a>
+            </div>
+        </section>
+
+    </footer>
+</body>
+
 </html>

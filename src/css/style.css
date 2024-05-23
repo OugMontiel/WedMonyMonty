@@ -1,0 +1,161 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*
+header{
+    height: 3em;
+    background-color: var(--color-header-fooder);
+    color:var(--color-blanco);
+    padding: 40px;
+
+    display: block;
+    justify-content: space-between;    
+}
+
+img{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+*/
+.menu-nav{
+    background-color: var(--color-header-fooder);
+    align-content: center;
+    display: flex;
+}
+.navbar-logo{
+    width: 70px;
+    padding: 8px;
+}
+
+.navbar-logo img{
+    width: 100%;
+    height: auto;
+}
+
+.principal-box {
+    background-color: var(--color-Interior);
+    padding: 100px;
+}
+
+.principal-box > h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace ;
+}
+
+.frasesInicioPagina{
+    padding: 10px;
+    display: flex;
+    font-family: var(--letra-header);
+}
+
+.articleParaFasesMotivadoras{
+    padding: 20px 20px;
+}
+
+.form {
+    padding: 50px;
+}
+
+.form-container {
+    background-color: var(--color-blanco);
+    padding: 60px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {   
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-Contraste);
+    border-radius: 3px;
+}
+.country-code{
+    width: 50%;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-Contraste);
+    color: var(--color-blanco);
+    border: 1px solid var(--color-Interior);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.fooderlos3Servicios{
+    background-color: var(--color-Interior);
+    padding: 100px;
+}
+.los3Servicios{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.servicioss{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: var(--color-header-fooder);
+    color:var(--color-blanco);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+footer div{
+    padding: 1em;
+}
+footer div p{
+    padding: 0.3em;
+}
+footer div h1{
+    padding-left: 1em;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.feature {
+    max-width: 300px;
+    margin: 0 10px;
+}
+
+.feature img {
+    max-width: 50px;
+}
