@@ -1,3 +1,44 @@
+# Archivos auxiliares de LaTeX
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+
+# Otros archivos auxiliares
+*.glo
+*.idx
+*.ilg
+*.ind
+
+# Carpeta de salida
+/out/
+
+# Archivos de respaldo y versiones anteriores
+~$*
+*.bak
+*.old
+
+# Archivos temporales
+*.tmp
+
+# Otros archivos auxiliares
+*.~*
+
+# Carpetas de salida
+/out/
+
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -5,8 +46,3 @@
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
-# Local History for Visual Studio Code
-.history/
-
-# Built Visual Studio Code Extensions
-*.vsix
