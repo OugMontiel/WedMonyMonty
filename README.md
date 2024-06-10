@@ -1,24 +1,8 @@
-# Mony Monty
+# React + Vite
 
-Esta página será utilizada para captar y recopilar información de interesados en el proyecto, registrándolos como usuarios.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Para obtener más información sobre el proyecto, visita mis redes sociales:
+Currently, two official plugins are available:
 
-<p align="left"> 
-    <a href="https://discord.com/users/Oug#6073" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" />
-    </a>
-    <a href="https://www.github.com/OugMontiel" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
-    </a>
-    <a href="http://www.instagram.com/oug_montiel/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" />
-        </a>
-    <a href="https://www.linkedin.com/in/diego-alejandro-montiel-florez-data-science/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
-    </a>
-</p>
-Si ya eres parte del proyecto, solicita acceso al repositorio principal. Allí encontrarás más información sobre la página.
-
-[MonteFlor](https://github.com/OugMontiel/MonteFlor)
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
