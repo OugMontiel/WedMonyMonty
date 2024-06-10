@@ -1,18 +1,43 @@
 @import url(variables.css);
-*{
+
+* {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-li{
+
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
+body{
+    display: flex;
+    
+}
+
+/*navSuperir*/
+.navSuperir{
+    background-color: blue;
+}
+
+/*navDerecha*/
+.navDerecha{
+    background-color: red;
+}
+
+/*main*/
+.main{
+    background-color: hotpink;
+}
+
