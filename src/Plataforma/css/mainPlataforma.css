@@ -27,19 +27,25 @@ body {
     height: 100vh;
 }
 
-/*navSuperir*/
+/*Superir*/
 .Superir {
     background-color: blue;
     height: 2em;
     width: 100vw;
 }
+.navSuperior{
+    display: flex;
+    padding: 0 1em ;
+    justify-content: space-between;
+    
+}
 
+/*Inferior*/
 .Inferior {
     display: flex;
     flex-grow: 1;
 }
 
-/*navDerecha*/
 .navDerecha {
     background-color: red;
     display: flex;
