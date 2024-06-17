@@ -1,4 +1,4 @@
-@import url(variables.css);
+@import url(../../css/variables.css);
 
 * {
     padding: 0;
@@ -21,23 +21,32 @@ a {
     text-decoration: none;
 }
 
-body{
+body {
     display: flex;
-    
+    flex-direction: column;
+    height: 100vh;
 }
 
 /*navSuperir*/
-.navSuperir{
+.Superir {
     background-color: blue;
+    height: 2em;
+    width: 100vw;
+}
+
+.Inferior {
+    display: flex;
+    flex-grow: 1;
 }
 
 /*navDerecha*/
-.navDerecha{
+.navDerecha {
     background-color: red;
+    display: flex;
 }
 
 /*main*/
-.main{
+main {
     background-color: hotpink;
+    flex-grow: 1;
 }
-
