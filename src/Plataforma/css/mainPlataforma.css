@@ -29,15 +29,21 @@ body {
 
 /*Superir*/
 .Superir {
-    background-color: blue;
-    height: 2em;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 3em;
     width: 100vw;
 }
 .navSuperior{
     display: flex;
     padding: 0 1em ;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
+}
+.Superir div{
+    padding: .5em;
 }
 
 /*Inferior*/
